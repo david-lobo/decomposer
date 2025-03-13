@@ -1,0 +1,18 @@
+{
+    "name": "david-lobo/decomposer",
+    "autoload": {
+        "psr-4": {
+            "DavidLobo\\Decomposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "davidlobo",
+            "email": "david@cloudartisans.co.uk"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "t4web/composer-lock-parser": "^1.2"
+    }
+}
