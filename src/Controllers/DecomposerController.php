@@ -28,6 +28,10 @@ class DecomposerController
 
         $phpVersion = phpversion();
 
-        return response()->json(['packages' => $packages, 'php_version' => $phpVersion]);
+        return response()->json([
+            'type' => 'packagist',
+            'php_version' => $phpVersion,
+            'packages' => $packages
+        ]);
     }
 }
